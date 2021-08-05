@@ -7,8 +7,9 @@ Write the following in the init field of an object.
 [this] execVM "scripts\fillMedicalCrate.sqf";
 */
 
+params ["_crate"];
+
 if (! isServer) exitwith {};
-private _crate = _this select 0;
 clearItemCargoGlobal _crate;
 clearWeaponCargo _crate;
 clearMagazineCargo _crate;
