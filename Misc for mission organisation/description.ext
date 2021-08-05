@@ -1,0 +1,19 @@
+Saving=0;
+class Header
+{
+     gameType = Coop;
+     minPlayers = 1;
+     maxPlayers = 12;
+};
+respawn = "BASE";
+respawndelay = 5;
+disabledAI = 1;
+//Debriefing = 1;
+
+onLoadName = "co12 Operation High Proof";                       					//Name der Mission
+author = "Max [TacNet]";                                //Name des Autors
+onLoadMission = "Was wollen wir trinken?";               						//Kurze(!) Beschreibung der Mission (fürs Laden)
+onLoadMissionTime = 1;									// Define whether you will see the time and date displayed while the mission loads. 1 means visible, 0 hidden. 
+enableDebugConsole = 1;									//dangerous in MP 1 means admin, 2 all
+loadScreen =  "";
+
