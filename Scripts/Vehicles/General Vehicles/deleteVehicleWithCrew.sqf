@@ -23,7 +23,7 @@ params[
 /*
 EXAMPLES:
 
-Singular vehicle
+Single vehicle
 [[helicopter]] execVM "scripts\deleteVehicleWithCrew.sqf";
 
 Multiple vehicles

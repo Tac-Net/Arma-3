@@ -4,7 +4,7 @@ https://www.tactical-network.de
 
 USAGE:
 Write the following where it needs to be called within a *.sqf.
-{ null = [examplePosition, 1, [255, 255, 255], [255,255,255], true] execVM "scripts\createLightpoint.sqf" } remoteExec ["call", 2];
+{ null = [examplePosition, 1, [255, 255, 255], [255,255,255], true] execVM "scripts\createLightpoint.sqf" } remoteExec ["call", -2];
 */
 
 /*
